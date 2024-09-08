@@ -1,0 +1,38 @@
+.our-features {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .our-features h2 {
+    margin-bottom: 20px; 
+    font-size: 2rem; 
+    color:#429E9D; 
+  }
+  
+  .feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .feature section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; 
+    padding: 10px;
+  }
+  
+  .our-features i{
+    font-size: 40px;
+    color:#429E9D;
+  }
+  
+  .feature h6 {
+    font-size: 1rem; 
+    color: #333; 
+    margin-top:10px;
+  }
+
+  

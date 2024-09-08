@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .main-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 1px 2px;
+  }
+  
+  
+  .msg-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    background-color: aliceblue;
+  }
+  
+  .msg-header .msg-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .msg-header .msg-content li {
+    margin-right: 15px;
+  }
+  
+  .msg-header .msg-content span {
+    font-weight: bold;
+    color:#429E9D;
+
+  }
+  
+  .social-logo {
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+  }
+
+
+  
+ 
+  .logo-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+   
+  }
+
+  
+  .logo-menu-header span{
+    color:#429E9D;
+  }
+  
+  .logo-menu-header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo-menu-header h1 a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color:#429E9D;
+  }
+  
+  .logo-menu-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+   
+
+  }
+  
+  .logo-menu-header nav li {
+    cursor: pointer;
+    transition: color 0.3s;
+
+  }
+  .logo-menu-header nav li a{
+   text-decoration: none;
+   color: #429E9D;
+
+  }
+  
+  
+  .logo-menu-header nav li:hover {
+    color:#429E9D;;
+  }
+  
+  .logo-menu-header button {
+    background-color:#429E9D;;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logo-menu-header button:hover {
+    background-color:white;
+    color: #429E9D;
+
+  }
+
+  
+
+ 
+  .contact-menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 20px;
+    background-color:rgba(50, 0, 0, 0.1);
+  }
+  
+  .contact-menu-header section {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+
+    padding: 10px 15px;
+    
+    flex: 1;
+    max-width: 250px; 
+  }
+  
+  .contact-menu-header .material-icons {
+    font-size: 30px;
+    color:#429E9D;;
+  }
+  
+  .contact-menu-header .text-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-menu-header .text-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .contact-menu-header .text-content h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
